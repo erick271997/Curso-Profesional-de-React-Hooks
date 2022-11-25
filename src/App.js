@@ -1,11 +1,13 @@
 
 import './App.css';
+import Characters from './Componet/Characters';
 import Header from './Componet/Header';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header/>,
+      <Characters/>
       hola
     </div>
   );
